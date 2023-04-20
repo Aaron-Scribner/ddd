@@ -8,5 +8,11 @@ The main benefit is the consistency and terminology used by both the business an
 Domain-driven design works best with more complex business domains that have a defined set of steps and logic that applies to each step. There is a level of overhead that comes with domain-driven design and it is designed for business contexts that have clearly defined boundaries and distinct process flows therein.
 
 # Application Layers
-For a detailed description, please see the following section.
-[Application Layers](/Application-Layers)
+The application architecture breaks into Abstractions, API, and Domain. Please visit the following sections for further details.
+- [API](./application-layers/API%20Layer.md)
+- [Abstractions](./application-layers/Abstractions.md)
+- [Domain](./application-layers/domain/Domain%20Layer.md)
+
+## Dependencies 
+![DDD Layers](./images/DependencyGraph-DDD.svg)
+
