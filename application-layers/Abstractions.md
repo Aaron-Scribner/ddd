@@ -1,0 +1,1 @@
+Abstractions make the shape of the API Models, Enumerations, and Domain Events available outside of the bounded context. The API layer should receive and respond only with the models defined in the abstractions. It should never return an Aggregate from an endpoint, nor should it ever publish an Aggregate in whole, or part of, to the distributed messaging system. 
